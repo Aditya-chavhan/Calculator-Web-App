@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=VT323&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+     text-align: center;
+     margin-top: 25px;
+}
+.container h1{
+    font-family: "Orbitron", serif;
+}
+.calculator{
+    display: inline-block;
+    background-color: rgb(244, 176, 244);
+    padding: 45px 20px 30px 20px;
+    border: 6px black solid;
+    border-radius: 52px;
+}
+input{
+    height: 45px;
+    width: 350px;
+    border: 2px black solid;
+    border-radius: 5px;
+    font-size: 29px;
+    font-weight: 600;
+    padding-left: 7px;
+    background-color:aliceblue;
+    font-family: "VT323", serif;
+}
+table{
+    margin: auto;
+}
+button{
+    font-size: 36px;
+    font-family: "VT323", serif;
+    background-color: rgb(250, 248, 248);
+    height: 50px;
+    width: 86px;
+    border: 2px black solid;
+    border-radius: 6px;
+}
+.row1{
+    background-color: lightyellow;
+}
+.row2{
+     background-color: aqua;
+}
+.row3{
+     background-color: rgb(192, 249, 249);
+}
+.row4{
+    background-color:aquamarine ;
+}
+.row5{
+    background-color:lightpink;
+}
